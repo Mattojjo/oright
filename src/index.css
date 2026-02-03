@@ -3,6 +3,7 @@ body {
     font-family: 'Nunito', 'Poppins', 'Quicksand', 'Comfortaa', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-color: #FAF8F3;
 }
 
 * {
