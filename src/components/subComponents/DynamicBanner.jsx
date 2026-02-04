@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { banners } from './constants';
-import './DynamicBanner.css';
 
 const SLIDE_DURATION = 500;
 const BANNER_INTERVAL = 10000;
@@ -22,8 +21,18 @@ export const DynamicBanner = () => {
   }, []);
 
   return (
-    <div className="dynamic-banner">
-      <div className={`banner-container ${isTransitioning ? 'slide-out' : 'slide-in'}`}>
+    <div className="rounded-xl text-center p-0 mx-8 my-24 mt-24 overflow-hidden relative">
+      <style>{`
+        @keyframes slideFromRight {
+          from {
+            transform: translateX(100%);
+          }
+          to {
+            transform: translateX(0);
+          }
+        }
+      `}</style>
+      <div className={`transition-transform duration-[600ms] ease-in-out ${isTransitioning ? '-translate-x-full' : 'translate-x-0 animate-[slideFromRight_0.6s_ease-in-out]'}`}>
         {banners[currentIndex]}
       </div>
     </div>

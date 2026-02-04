@@ -1,11 +1,7 @@
+@import "tailwindcss";
+
 body {
-    margin: 0;
-    font-family: 'Nunito', 'Poppins', 'Quicksand', 'Comfortaa', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #FAF8F3;
-}
-
-* {
-    box-sizing: border-box;
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
 }
