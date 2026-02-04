@@ -1,44 +1,39 @@
 export const banners = [
-    (
-        <div className="bg-cover bg-center bg-no-repeat min-h-[400px] flex items-center justify-center relative" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&q=80)' }}>
-            <div className="bg-white/15 backdrop-blur-[10px] px-8 py-12 rounded-xl max-w-[700px] mx-8 border border-white/30">
-                <h1 className="text-center m-0 mb-6 text-white text-5xl font-extrabold [text-shadow:2px_2px_4px_rgba(0,0,0,0.3)]">Welcome to oRight</h1>
-                <p className="text-center m-0 text-2xl text-white font-semibold [text-shadow:1px_1px_3px_rgba(0,0,0,0.3)]">Finding the right care, made simple</p>
-            </div>
-        </div>
-    ),
-    (
-        <div className="bg-cover bg-center bg-no-repeat min-h-[400px] flex items-center justify-center relative" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=1200&q=80)' }}>
-            <div className="bg-white/15 backdrop-blur-[10px] px-8 py-12 rounded-xl max-w-[700px] mx-8 border border-white/30">
-                <h1 className="text-center m-0 mb-6 text-white text-5xl font-extrabold [text-shadow:2px_2px_4px_rgba(0,0,0,0.3)]">Your Health, Our Priority</h1>
-                <p className="text-center m-0 text-2xl text-white font-semibold [text-shadow:1px_1px_3px_rgba(0,0,0,0.3)]">Connecting you with friendly, caring doctors</p>
-            </div>
-        </div>
-    ),
-    (
-        <div className="bg-cover bg-center bg-no-repeat min-h-[400px] flex items-center justify-center relative" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=1200&q=80)' }}>
-            <div className="bg-white/15 backdrop-blur-[10px] px-8 py-12 rounded-xl max-w-[700px] mx-8 border border-white/30">
-                <h1 className="text-center m-0 mb-6 text-white text-5xl font-extrabold [text-shadow:2px_2px_4px_rgba(0,0,0,0.3)]">Care Made Easy</h1>
-                <p className="text-center m-0 text-2xl text-white font-semibold [text-shadow:1px_1px_3px_rgba(0,0,0,0.3)]">Less stress, better health outcomes</p>
-            </div>
-        </div>
-    ),
-    (
-        <div className="bg-cover bg-center bg-no-repeat min-h-[400px] flex items-center justify-center relative" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=1200&q=80)' }}>
-            <div className="bg-white/15 backdrop-blur-[10px] px-8 py-12 rounded-xl max-w-[700px] mx-8 border border-white/30">
-                <h1 className="text-center m-0 mb-6 text-white text-5xl font-extrabold [text-shadow:2px_2px_4px_rgba(0,0,0,0.3)]">Find Your Doctor Today</h1>
-                <p className="text-center m-0 text-2xl text-white font-semibold [text-shadow:1px_1px_3px_rgba(0,0,0,0.3)]">Compassionate care when you need it most</p>
-            </div>
-        </div>
-    ),
-    (
-        <div className="bg-cover bg-center bg-no-repeat min-h-[400px] flex items-center justify-center relative" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=1200&q=80)' }}>
-            <div className="bg-white/15 backdrop-blur-[10px] px-8 py-12 rounded-xl max-w-[700px] mx-8 border border-white/30">
-                <h1 className="text-center m-0 mb-6 text-white text-5xl font-extrabold [text-shadow:2px_2px_4px_rgba(0,0,0,0.3)]">Healthcare Without Hassle</h1>
-                <p className="text-center m-0 text-2xl text-white font-semibold [text-shadow:1px_1px_3px_rgba(0,0,0,0.3)]">Your journey to wellness starts here</p>
-            </div>
-        </div>
-    )
+  {
+    image: 'https://images.unsplash.com/photo-1551190822-a9333d879b1f?w=1600&q=85',
+    title: 'Welcome to oRight',
+    subtitle: 'Finding the right care, made simple',
+    overlayGradient: 'from-cyan-900/40 to-purple-900/40',
+    textGradient: 'from-cyan-600 to-purple-600'
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1600&q=85',
+    title: 'Your Health, Our Priority',
+    subtitle: 'Connecting you with caring, professional doctors',
+    overlayGradient: 'from-rose-900/30 to-cyan-900/30',
+    textGradient: 'from-rose-500 to-purple-600'
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1600&q=85',
+    title: 'Care Made Easy',
+    subtitle: 'Less stress, better health outcomes',
+    overlayGradient: 'from-blue-900/35 to-teal-900/35',
+    textGradient: 'from-blue-600 to-teal-600'
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=1600&q=85',
+    title: 'Find Your Doctor Today',
+    subtitle: 'Compassionate care when you need it most',
+    overlayGradient: 'from-purple-900/35 to-pink-900/35',
+    textGradient: 'from-purple-600 to-pink-600'
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=1600&q=85',
+    title: 'Healthcare Without Hassle',
+    subtitle: 'Your journey to wellness starts here',
+    overlayGradient: 'from-cyan-900/40 to-blue-900/40',
+    textGradient: 'from-cyan-600 to-blue-600'
+  }
 ];
 
 export const stateMap = {
