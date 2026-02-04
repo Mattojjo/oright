@@ -1,5 +1,7 @@
 # oRight
 
+# WIP
+
 Healthcare provider search platform connecting patients with friendly, caring doctors.
 
 ## Features
