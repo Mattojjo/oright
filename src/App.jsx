@@ -1,19 +1,18 @@
-import './App.css'
-import { HeroBanner } from './components/HeroBanner'
-import { Body } from './components/Body'
-import { DoctorSearch } from './components/DoctorSearch'
-import { Footer } from './components/Footer'
+import './App.css';
+import { HeroBanner } from './components/HeroBanner';
+import { Body } from './components/Body';
+import { DoctorSearch } from './components/DoctorSearch';
+import { Footer } from './components/Footer';
 
 function App() {
-
   return (
     <>
-       <HeroBanner />
-       <Body />
-       <DoctorSearch />
-       <Footer />
+      <HeroBanner />
+      <DoctorSearch />
+      <Body />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

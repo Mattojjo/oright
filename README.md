@@ -31,17 +31,21 @@ Visit `http://localhost:5173`
 
 ```
 src/
-├── components/
-│   ├── HeroBanner.jsx
-│   ├── Body.jsx (wellness quotes)
-│   ├── DoctorSearch.jsx
-│   ├── Footer.jsx
-│   └── subComponents/
-│       ├── DynamicBanner.jsx
-│       ├── MenuBar.jsx
-│       ├── ChatBubble.jsx
-│       └── constants.jsx
-└── public/
+├── App.jsx ✓
+├── main.jsx ✓
+├── index.css ✓
+└── components/
+    ├── HeroBanner.jsx ✓
+    ├── Body.jsx ✓
+    ├── DoctorSearch.jsx ✓
+    ├── Footer.jsx ✓
+    └── subComponents/
+        ├── MenuBar.jsx ✓
+        ├── DynamicBanner.jsx ✓
+        ├── ChatBubble.jsx ✓
+        └── constants.jsx ✓
+
+public/
     └── data.json (healthcare data)
 ```
 
