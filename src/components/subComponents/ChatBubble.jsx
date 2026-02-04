@@ -10,7 +10,7 @@ export const ChatBubble = () => {
   return (
     <>
       <button 
-        className="fixed bottom-8 right-8 w-[60px] h-[60px] rounded-full bg-gradient-to-br from-[#667eea] to-[#764ba2] border-none text-white cursor-pointer flex items-center justify-center shadow-[0_4px_12px_rgba(0,0,0,0.15)] transition-all duration-300 hover:scale-110 hover:shadow-[0_6px_16px_rgba(0,0,0,0.2)] z-[1000]" 
+        className="fixed bottom-8 right-8 w-[60px] h-[60px] rounded-full bg-gradient-to-br from-rose-500 to-purple-600 border-none text-white cursor-pointer flex items-center justify-center shadow-[0_4px_20px_rgba(251,113,133,0.4)] transition-all duration-300 hover:scale-110 hover:shadow-[0_8px_30px_rgba(139,92,246,0.5)] z-[1000]" 
         onClick={toggleChat}
         aria-label="Open chat support"
         aria-expanded={isOpen}
@@ -45,7 +45,7 @@ export const ChatBubble = () => {
               }
             }
           `}</style>
-          <div className="bg-gradient-to-br from-[#667eea] to-[#764ba2] text-white px-5 py-5 rounded-t-2xl flex justify-between items-center">
+          <div className="bg-gradient-to-r from-rose-500 to-purple-600 text-white px-5 py-5 rounded-t-2xl flex justify-between items-center">
             <h3 className="m-0 text-xl font-bold">Chat with us</h3>
             <button 
               className="bg-none border-none text-white text-[2rem] cursor-pointer leading-none p-0 w-[30px] h-[30px] flex items-center justify-center transition-opacity duration-200 hover:opacity-70" 
@@ -55,11 +55,11 @@ export const ChatBubble = () => {
               ×
             </button>
           </div>
-          <div className="flex-1 px-6 py-6 overflow-y-auto bg-[#f9f9f9]">
-            <div className="mb-4 px-4 py-3 rounded-xl max-w-[80%] bg-[#e9ecef] self-start">
-              <p className="m-0 text-[0.95rem]">Hi! How can we help you today?</p>
+          <div className="flex-1 px-6 py-6 overflow-y-auto bg-gradient-to-b from-slate-50 to-white">
+            <div className="mb-4 px-4 py-3 rounded-xl max-w-[80%] bg-gradient-to-br from-cyan-100 to-blue-100 self-start">
+              <p className="m-0 text-[0.95rem] text-slate-700">Hi! How can we help you today?</p>
             </div>
-            <div className="mb-4 px-4 py-3 rounded-xl max-w-[80%] bg-[#667eea] text-white self-end ml-auto">
+            <div className="mb-4 px-4 py-3 rounded-xl max-w-[80%] bg-gradient-to-r from-rose-500 to-purple-600 text-white self-end ml-auto">
               <p className="m-0 text-[0.95rem]">This is a sample user message</p>
             </div>
           </div>
@@ -71,7 +71,7 @@ export const ChatBubble = () => {
               disabled 
               aria-label="Message input (currently disabled)"
             />
-            <button className="px-6 py-3 bg-gradient-to-br from-[#667eea] to-[#764ba2] text-white border-none rounded-lg cursor-pointer font-semibold transition-opacity duration-300 hover:opacity-90 disabled:opacity-50 disabled:cursor-not-allowed" disabled aria-label="Send message (currently disabled)">Send</button>
+            <button className="px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-500 text-white border-none rounded-lg cursor-pointer font-semibold transition-all duration-300 hover:from-cyan-600 hover:to-blue-600 disabled:opacity-50 disabled:cursor-not-allowed" disabled aria-label="Send message (currently disabled)">Send</button>
           </div>
         </div>
       )}
