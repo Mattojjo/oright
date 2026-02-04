@@ -93,7 +93,7 @@ export const DoctorSearch = () => {
   };
 
   return (
-    <section className="py-16 px-8 pb-32 max-w-[1400px] mx-auto">
+    <section className="py-1 px-8 pb-20 max-w-[1400px] mx-auto">
       <h2 className="text-center text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-rose-500 to-purple-600 mb-4">Find a Doctor</h2>
       <p className="text-center text-xl text-slate-600 mb-12">Connect with healthcare professionals in your area</p>
       
