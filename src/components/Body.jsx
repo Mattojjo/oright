@@ -1,5 +1,3 @@
-import './Body.css';
-
 const healthQuotes = [
   {
     id: 1,
@@ -45,13 +43,13 @@ const healthQuotes = [
 
 export const Body = () => {
   return (
-    <section className="body-section">
-      <h2 className="body-title">Wellness Inspiration</h2>
-      <div className="quotes-container">
+    <section className="py-16 px-8 pb-32 max-w-[1400px] mx-auto">
+      <h2 className="text-center text-4xl font-extrabold text-[#5D4E37] mb-12">Wellness Inspiration</h2>
+      <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-8 p-4">
                 {healthQuotes.map((item) => (
-                    <div key={item.id} className="quote-card">
-                        <p className="quote-text">"{item.quote}"</p>
-                        <p className="quote-author">— {item.author}</p>
+                    <div key={item.id} className="bg-gradient-to-br from-[#FFF8E7] to-[#F5E6D3] p-8 rounded-2xl shadow-[0_4px_12px_rgba(93,78,55,0.1)] transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_8px_24px_rgba(93,78,55,0.15)] flex flex-col justify-between min-h-[200px] border border-[#E8DCC8]">
+                        <p className="text-lg leading-relaxed text-[#4A3F2E] italic m-0 mb-6 flex-grow">"{item.quote}"</p>
+                        <p className="text-[0.95rem] text-[#7A6A53] font-semibold text-right m-0">— {item.author}</p>
                     </div>
                 ))}
             </div>

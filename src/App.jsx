@@ -1,4 +1,3 @@
-import './App.css';
 import { HeroBanner } from './components/HeroBanner';
 import { Body } from './components/Body';
 import { DoctorSearch } from './components/DoctorSearch';
